@@ -1,0 +1,8 @@
+.section {
+  display: flex;
+}
+
+img {
+  height: 100px;
+  width: auto;
+}

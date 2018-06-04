@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  /* Style rows and columns */
+}
+
+#title {
+  grid-column: /*this should span the entire page*/;
+}
+
+/* Style family members */

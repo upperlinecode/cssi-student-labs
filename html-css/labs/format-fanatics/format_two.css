@@ -1,0 +1,19 @@
+.container {
+  display:grid;
+  /* Style the template for the grid */
+}
+
+/* Making border black */
+#b {
+  background-color: black;
+}
+
+#title {
+  grid-column: span 12;
+}
+
+.photo {
+  grid-column: /*insert format*/;
+}
+
+/* Style remaining grid elements */

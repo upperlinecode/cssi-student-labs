@@ -1,0 +1,5 @@
+.container {
+  display: grid;
+  grid-template-columns: /*insert format here*/;
+  grid-template-rows: /*insert formal here*/;
+}

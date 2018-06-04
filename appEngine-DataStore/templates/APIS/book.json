@@ -1,0 +1,26 @@
+[{
+    "author": "Toni Morrison",
+    "country": "United States", 
+    "language": "English", 
+    "pages": 321,
+    "title": "Beloved", 
+    "year": 1987, 
+    "img_url": "https://upload.wikimedia.org/wikipedia/en/3/3a/BelovedNovel.jpg"
+},{
+    "author": "Leo Tolstoy", 
+    "country": "Russia", 
+    "language": "Russian", 
+    "pages": 864, "title": 
+    "Anna Karenina", 
+    "year": 1877, 
+    "img_url":"https://upload.wikimedia.org/wikipedia/commons/c/c7/AnnaKareninaTitle.jpg"
+    
+}, {
+    "author": "Paulo Coelho", 
+    "country": "Brazil", 
+    "language": "Portuguese", 
+    "pages": 163, 
+    "title": "The Alchemist",
+    "year": 1988, 
+    "img_url":"https://upload.wikimedia.org/wikipedia/en/c/c4/TheAlchemist.jpg"
+}]

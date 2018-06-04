@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food List</title>
+    <link rel="stylesheet" type="text/css" href="app-stylesheets/boring-style.css">
+  </head>
+  <body>
+    <h1>People's Favorite Foods</h1>
+    {% for food in top_fav_foods %}
+      <p>{{food.food_name}}</p>
+    {% endfor %}  
+    <h4>The fetched records from the query look like this</h4>
+    {{top_fav_foods}}
+  </body>
+</html>

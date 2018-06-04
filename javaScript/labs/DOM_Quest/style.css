@@ -1,0 +1,35 @@
+
+.box{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  margin: 10px;
+}
+
+.active{
+  background-color: yellow;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#box1{
+  background-color: red;
+}
+#box2{
+  background-color: pink;
+}
+#box3{
+  background-color: orange;
+}
+#box6{
+  background-color: purple;
+}
+
+.rectangle{
+  height: 400px;
+  width: 100px;
+  background-color: tomato;
+}

@@ -1,0 +1,58 @@
+#frog{
+  height: 70px;
+  left: 17%;
+  margin-left: -35px; /* Half the width */
+  /* negative margins results in the positioning applying to the location of the center of the image */
+  margin-top: -35px; /* Half the height */
+  position:absolute;
+  top: 50%;
+  width: 70px;
+}
+
+.lily_pad {
+  border-radius: 50%;
+  height: 100px;
+  margin-left: -50px; /* Half the width */
+  margin-top: -50px; /* Half the height */
+  position: absolute;
+  width: 100px;
+}
+
+.active {
+  border: solid yellow thick;
+}
+
+#board {
+  background-color: dodgerblue;
+  border: solid grey thick;
+  height: 80vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  width: 80%;
+}
+
+#one {
+  /* left: 17%;
+  top:50%; */
+}
+
+#two {
+  /* left: 33.5%;
+  top:24%; */
+}
+
+#three {
+  /* left:50%;
+  top:50%; */
+}
+
+#four {
+  /* left: 68%;
+  top:75%; */
+}
+
+#five {
+  /* left: 83%;
+  top:50%; */
+}

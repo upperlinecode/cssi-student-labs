@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script>
+  	var bookJSON = '[{"author": "Toni Morrison","country": "United States", "language": "English", "pages": 321,"title": "Beloved", "year": 1987, "img_url": "https://upload.wikimedia.org/wikipedia/en/3/3a/BelovedNovel.jpg"},{"author": "Leo Tolstoy", "country": "Russia", "language": "Russian", "pages": 864, "title": "Anna Karenina", "year": 1877, "img_url":"https://upload.wikimedia.org/wikipedia/commons/c/c7/AnnaKareninaTitle.jpg"}, {"author": "Paulo Coelho", "country": "Brazil", "language": "Portuguese", "pages": 163, "title": "The Alchemist","year": 1988, "img_url":"https://upload.wikimedia.org/wikipedia/en/c/c4/TheAlchemist.jpg"}]'
+  	
+  	var bookObj = JSON.parse(bookJSON);
+
+  	$(document).ready(function(){
+      $("button").click(function(){
+        $.each(bookObj, function(i, book) {
+            //alert(book.author);
+          	$( "#booklist" ).append( "<p>" + book.title + " (" + book.author + ")</p>" );
+          });
+      });
+  	});
+   	</script>
+  </head>
+  <body>
+    <h2>Top Books</h2>
+    <button type="button" onclick="showBooks()">Get Books</button>
+    <div id = "booklist">
+    </div>
+  </body>
+</html>
