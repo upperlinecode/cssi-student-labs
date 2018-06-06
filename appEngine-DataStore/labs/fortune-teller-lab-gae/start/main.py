@@ -23,7 +23,7 @@ def get_fortune():
     #add a list of fortunes to the empty fortune_list array
     fortune_list=['fortune1', 'fortune2']
     #use the random library to return a random element from the array
-    random_fortune =
+    random_fortune = "You should build a random fortune into the code"
     return(random_fortune)
 
 
